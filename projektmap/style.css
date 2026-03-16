@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  font-size: var(--fs-sm);
+}
+th {
+  background: var(--clr-dark);
+  color: #fff;
+  padding: .85rem 1.25rem;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  font-size: var(--fs-xs);
+}
+td {
+  padding: .85rem 1.25rem;
+  border-bottom: 1px solid var(--clr-border);
+  color: var(--clr-mid);
+}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--clr-bg); }

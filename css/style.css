@@ -4,7 +4,7 @@
    ============================================================ */
 
 /* ── CSS-VARIABLER ── */
-:root {
+:root {  
   --bg:#f7f8fb; --text:#1f2b38; --muted:#5a6772;
   --primary:#0b64ff; --primary-dk:#064ecf; --primary-lt:rgba(11,100,255,.1);
   --surface:#ffffff; --border:#dde4ef; --light:#eff3ff;

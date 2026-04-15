@@ -1,4 +1,4 @@
-* ============================================================
+/* ============================================================
    Novodisk Revonvirg – style.css
    Maxad med hover, animationer, pseudo-klasser, transitions
    ============================================================ */
@@ -416,7 +416,7 @@ tr:hover td{background:var(--primary-lt);color:var(--text);padding-left:1.5rem}
   padding:.78rem 1rem;border:1.5px solid var(--border);
   border-radius:var(--r-sm);font-family:'DM Sans',sans-serif;
   font-size:.875rem;color:var(--text);background:var(--surface);
-  outline:none;-webkit-appearance:none;
+  outline:none;appearance:none;-webkit-appearance:none;
   transition:border-color var(--t),box-shadow var(--t),transform var(--t);
 }
 .contact-form input:hover,.contact-form select:hover,.contact-form textarea:hover{border-color:#b0c0d8}
